@@ -3,25 +3,55 @@
  <head>
    <title>Vitor Pohlenz Personal Website</title>
    <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.6.1/ci.min.css"/>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
  </head>
+ <style>
+  .container {
+  display: flex;
+  align-items: center;
+  justify-content: right
+  }
+
+  img {
+    max-width: 100%;
+    max-height:100%;
+  }
+
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  </style>
+
  <body>
    <nav>
      <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
+       <li><a href="https://vitorpohlenz.github.io/vpz.github.io/">Home</a></li>
+       <li><a href="https://www.linkedin.com/in/vitorpohlenz/">Likedin</a></li>
+       <li><a href="https://stackoverflow.com/users/7723965/vpz">Stack Overflow</a></li>
+       <ri><a href="https://github.com/vitorpohlenz" id="right">GitHub</a></ri>
      </ul>
    </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am Vitor Pohlenz!</h1>
+   <div class="container">
+    <div class="image">
+      <img src="img/vpz3.jpg">
+    </div>
+    <div class="text">
+      <h1>Hi, I am Vitor Pohlenz!</h1>
        <p>This is the first page of my personal website!</a></p>
-     </div>
+    </div>
+   </div>
+   <div class="container">
+    <div class="blurb">
+      <a class="ci ci-linkedin ci-2x" href="https://www.linkedin.com/in/vitorpohlenz/"></a>
+      <a class="ci ci-github ci-2x" href="https://github.com/vitorpohlenz"></a>
+      <a href="https://stackoverflow.com/users/7723965/vpz"><i class="fab fa-stack-overflow fa-2x" style="color: #db3700;"></i></a>
+    </div>
    </div>
    <footer>
    <ul>
-     <li><a href=”mailto:vitorpohlenz@hotmail.com”>Email</a></li>
+     <li>Email: vitorpohlenz@hotmail.com</li>
    </ul>
    </footer>
  </body>

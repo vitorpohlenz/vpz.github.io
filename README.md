@@ -1,2 +1,2 @@
 # Vitor Pohlenz
-Personal Website from [Git Hub](https://github.com/vitorpohlenz/vpz.github.io/tree/master)
+Personal Website from [GitHub](https://vitorpohlenz.github.io/vpz.github.io/)
